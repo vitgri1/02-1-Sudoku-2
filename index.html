@@ -12,19 +12,53 @@
         <a href="#" style="float: left; width: 10%; margin-left: 5%; font-size: 150%;">Sudoku.com</a>
         <button style="float: right; width: 10%; border-style: none;">New Game</button>
     </header>
-    <main>
-        <div>
-            pseudo header
+    <main style="display: inline-block; width: 100%; background-color: gray;">
+        <div style="display: inline-block; width: 100%;">
+            <div style="float: left; width: 30%;">
+                <label for="Difficulty">Difficulty:</label>
+                <select name="Difficulty" id="Difficulty">
+                    <option value="1">Easy</option>
+                    <option value="2">Medium</option>
+                    <option value="3">Hard</option>
+                    <option value="4">Expert</option>
+                    <option value="5">Evil</option>
+                </select>
+            </div>
+            <div style="float: left; width: 10%; margin-left: 20%;">Mistakes: 0/3</div>
+            <div style="float: left; width: 10%; margin-left: 30%; text-align: right;">
+                time
+                <button>⏸
+                </button>
+            </div>
         </div>
-        <div>
+        <div style="float: left; width: 55%;">
             game window
         </div>
-        <div>
-            <div>
-                buttons
+        <div style="float: left; width: 45%;">
+            <div style="display: inline-block; width: 100%;">
+                <button style="float:left; width: 25%; border-style: none; border-radius: 100%; color: blue;">
+                    Undo
+                </button>
+                <button style="float:left; width: 25%; border-style: none; border-radius: 100%; color: blue;">
+                    Erase
+                </button>
+                <button style="float:left; width: 25%; border-style: none; border-radius: 100%; color:blue;">
+                    Notes
+                </button>
+                <button style="float:left; width: 25%; border-style: none; border-radius: 100%; color: blue;">
+                    Hint
+                </button>
             </div>
-            <div>
-                number buttons
+            <div style="display: inline-block; width: 100%;">
+                <button style="float:left; width: 33%; margin-left: 0.3%; margin-bottom: 0.3%; border-style: none; border-radius: 10%; color: blue; font-size: 400%;">1</button>
+                <button style="float:left; width: 33%; margin-left: 0.3%; margin-bottom: 0.3%; border-style: none; border-radius: 10%; color: blue; font-size: 400%;">2</button>
+                <button style="float:left; width: 33%; margin-left: 0.3%; margin-bottom: 0.3%; border-style: none; border-radius: 10%; color: blue; font-size: 400%;">3</button>
+                <button style="float:left; width: 33%; margin-left: 0.3%; margin-bottom: 0.3%; border-style: none; border-radius: 10%; color: blue; font-size: 400%;">4</button>
+                <button style="float:left; width: 33%; margin-left: 0.3%; margin-bottom: 0.3%; border-style: none; border-radius: 10%; color: blue; font-size: 400%;">5</button>
+                <button style="float:left; width: 33%; margin-left: 0.3%; margin-bottom: 0.3%; border-style: none; border-radius: 10%; color: blue; font-size: 400%;">6</button>
+                <button style="float:left; width: 33%; margin-left: 0.3%; margin-bottom: 0.3%; border-style: none; border-radius: 10%; color: blue; font-size: 400%;">7</button>
+                <button style="float:left; width: 33%; margin-left: 0.3%; margin-bottom: 0.3%; border-style: none; border-radius: 10%; color: blue; font-size: 400%;">8</button>
+                <button style="float:left; width: 33%; margin-left: 0.3%; margin-bottom: 0.3%; border-style: none; border-radius: 10%; color: blue; font-size: 400%;">9</button>
             </div>
         </div>
         <div>
