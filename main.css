@@ -43,3 +43,104 @@ header > button:last-child{
     line-height: 1em;
     padding: 0.5em;
 }
+main{
+    background-color: gray;
+}
+main > div:first-child{
+    display: inline-block;
+    width: 100%;
+}
+main > div:first-child > div{
+    float: left;
+    line-height: 1em;
+    font-size: 24px;
+    margin-top: 1em;
+}
+main > div:first-child > div:first-child{
+    width: 30%;
+    background-color: aqua;
+}
+#Difficulty{
+    font-size: 20px;
+}
+main > div:first-child > div:nth-child(2){
+    width: 20%;
+    margin-left: 15%;
+}
+main > div:first-child > div:last-child{
+    width: 10%;
+    margin-left: 25%;
+    text-align: right;
+    background-color: green;
+}
+main > div:first-child > div:last-child > button{
+    font-size: 20px;
+}
+main > div:nth-child(2){
+    float: left;
+    width: 55%;
+    background-color: honeydew;
+}
+main > div:nth-child(3){
+    float: left;
+    width: 45%;
+}
+main > div:nth-child(3) > div{
+    float: left;
+    width: 100%;
+    background-color: lightblue;
+}
+main > div:nth-child(3) > div > button{
+    float:left;
+}
+main > div:nth-child(3) > div:first-of-type > div > button {
+    border-style: none;
+    border-radius: 100%;
+    color: blue;
+    padding: 2em;
+}
+main > div:nth-child(3) > div:last-of-type > button {
+    width: 33%;
+    margin-left: 0.3%;
+    margin-bottom: 0.3%;
+    border-style: none;
+    border-radius: 10%;
+    color: blue;
+    font-size: 400%;
+}
+main > div:last-child{
+    display: inline-block;
+    width: 100%;
+    background-color: red;
+    border-radius: 5px;
+}
+main > div:last-child > img:first-child{
+    float: left;
+    width: 10%;
+    margin: 2%;
+}
+main > div:last-child > div:first-of-type{
+    float: left;
+    width: 40%;
+    margin-left: 2%;
+}
+h2{
+    margin: 0;
+    margin-top: 7%;
+}
+p{
+    margin: 0;
+}
+main > div:last-child > a{
+    float: left;
+    margin-left: 2%;
+    margin-top: 5%;
+    width: 15%;
+    background-color: black;
+}
+footer{
+    background-color: #222E3E;
+}
+h1{
+    margin: 0;
+}
