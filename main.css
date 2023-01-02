@@ -80,6 +80,26 @@ main > div:nth-child(2){
     float: left;
     width: 55%;
     background-color: yellowgreen;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 10px;
+}
+main > div:nth-child(2) > div{
+    width: 32%;
+    float: left;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #344861;
+}
+main > div:nth-child(2) > div > div{
+    line-height: 1em;
+    width: 32%;
+    margin: 0;
+    padding: 0.35em 0;
+    float: left;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #C0C7D4;
 }
 main > div:nth-child(3){
     float: left;
