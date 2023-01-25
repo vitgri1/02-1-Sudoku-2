@@ -9,15 +9,6 @@
 
 /* Custom style below this comment line */
 
-
-body{
-    margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-header,
-main{
-    display: inline-block; width: 100%;
-}
 header > button:first-child{
     float: left;
     color: #344861;
@@ -192,7 +183,6 @@ main > div:last-child > a{
 }
 footer{
     background-color: #222E3E;
-    text-align: center;
     color: #fff;
 }
 h1{
