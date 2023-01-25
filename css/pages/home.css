@@ -2,50 +2,50 @@
 @import '../base/base.css';
 @import '../base/layout.css';
 /* 3rd-party */
-
+@import '../3rd-party/font-awesome.min.css';
 /* components */
 @import '../components/title.css';
 
 
 /* Custom style below this comment line */
 
-header > button:first-child{
+header.container {
+
+}
+
+.drop-down{
     float: left;
     color: #344861;
-    margin: 0;
+    background-color: red;
     font-size: 24px;
     width: 2em;
     line-height: 1em;
     padding: 0.5em;
     border-width: 0px;
 }
-a{
-    text-decoration: none;
-    color: #fff;
-}
-header > a{
+
+.logo{
     float: left;
-    width: 10%;
     margin-left: 5%;
     font-size: 28px;
-    line-height: 1em;
-    margin-top: 10px;
+    line-height: 48px;
     color: #344861;
 }
-span{
+
+.logo > span{
     color: #4A90E2;
 }
-header > button:last-child{
+
+.new-game{
     float: right;
-    width: 10%;
     border-style: none;
     text-transform: capitalize;
-    margin: 0;
     font-size: 24px;
     width: auto;
     line-height: 1em;
     padding: 0.5em;
 }
+
 main{
     background-color: gray;
 }
