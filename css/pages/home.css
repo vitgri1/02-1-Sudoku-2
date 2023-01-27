@@ -145,9 +145,9 @@ header.container {
     justify-content: end;
     gap: 8px;
 }
-.game-buttons > div:last-of-type > button {
+.num-buttons > button {
     width: 2em;
-    line-height: 2em;
+    line-height: 1.8em;
     border-style: none;
     border-radius: 10%;
     color: #4A90E2;
