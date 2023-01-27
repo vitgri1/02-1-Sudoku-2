@@ -87,8 +87,8 @@ header.container {
 
 .number-box{
     float: left;
-    width: 548px;
-    height: 548px;
+    width: 458px;
+    height: 458px;
     background-color: yellowgreen;
     font-size: 30px;
     text-align: center;
@@ -97,10 +97,11 @@ header.container {
     gap: 1px;
     justify-content: center;
     background-color: #000;
+    user-select: none;
 }
 .number-box > .box-9{
-    width: 182px;
-    height: 182px;
+    width: 152px;
+    height: 152px;
     display: flex;
     flex-wrap: wrap;
     gap: 1px;
@@ -110,8 +111,8 @@ header.container {
 }
 .number-box > .box-9 > div{
     background-color: #fff;
-    line-height: 58px;
-    width: 60px;
+    line-height: 48px;
+    width: 50px;
     border-width: 1px;
     border-style: solid;
     border-color: #000;
