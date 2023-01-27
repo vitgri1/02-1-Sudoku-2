@@ -51,6 +51,7 @@ header.container {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .menu > div{
@@ -117,45 +118,40 @@ header.container {
     border-style: solid;
     border-color: #000;
 }
-main > div:nth-child(3){
-    float: left;
-    width: calc(100% - 548px);
-}
-main > div:nth-child(3) > div{
-    float: left;
-    width: 100%;
-    background-color: lightblue;
-    margin-top: 10px;
+.game-buttons{
+    float: right;
+    width: calc(100% - 500px);
     color: #4A90E2;
 }
-main > div:nth-child(3) > div > button{
-    float:left;
+
+.game-menu{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: aquamarine;
 }
-main > div:nth-child(3) > div:first-of-type > div > button {
+
+.game-buttons > .game-menu > div > button {
     border-style: none;
     border-radius: 100%;
     color:#4A90E2;
-    padding: 0.5em;
-    font-size: 250%;
-    line-height: 1em;
+    font-size: 200%;
+    line-height: 2.5em;
+    width: 2.5em;
+}
+.num-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 8px;
+}
+.game-buttons > div:last-of-type > button {
     width: 2em;
-}
-main > div:nth-child(3) > div:first-of-type > div{
-    float: left;
-    text-align: center;
-    width: 25%;
-}
-main > div:nth-child(3) > div:last-of-type > button {
-    width: 32%;
-    margin-left: 1%;
-    margin-bottom: 1%;
+    line-height: 2em;
     border-style: none;
     border-radius: 10%;
     color: #4A90E2;
     font-size: 400%;
-    line-height: 1em;
-    padding: 0.5em;
-
 }
 main > div:last-child{
     display: inline-block;
