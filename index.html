@@ -5,17 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SudokUwU</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./css/pages/home.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
+    <link rel="manifest" href="./Favicon/site.webmanifest">
+    <link rel="mask-icon" href="./Favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="./Favicon/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <button>☰</button>
-        <a href="#">Sudoku<span>.</span>com</a>
-        <button>New game</button>
+    <header class="container">
+        <button class="drop-down fa fa-bars"></button>
+        <a class="logo" href="#">Sudoku<span>.</span>com</a>
+        <button class="new-game">New game</button>
     </header>
-    <main>
-        <div>
-            <div>
+    <main class="container">
+        <div class="menu">
+            <div class="selector">
                 <label for="Difficulty">Difficulty:</label>
                 <select name="Difficulty" id="Difficulty">
                     <option value="1">Easy</option>
@@ -26,13 +34,13 @@
                 </select>
             </div>
             <div>Mistakes: 0/3</div>
-            <div>
-                time
-                <button>||</button>
+            <div class="time">
+                00:15
+                <button class="fa fa-pause"></button>
             </div>
         </div>
-        <div>
-            <div>
+        <div class="number-box">
+            <div class="box-9">
                 <div>5</div>
                 <div>3</div>
                 <div>ㅤ</div>
@@ -43,7 +51,7 @@
                 <div>ㅤ</div>
                 <div>ㅤ</div>
             </div>
-            <div>
+            <div class="box-9">
                 <div>ㅤ</div>
                 <div>4</div>
                 <div>ㅤ</div>
@@ -54,7 +62,7 @@
                 <div>ㅤ</div>
                 <div>6</div>
             </div>
-            <div>
+            <div class="box-9">
                 <div>ㅤ</div>
                 <div>2</div>
                 <div>ㅤ</div>
@@ -65,7 +73,7 @@
                 <div>ㅤ</div>
                 <div>ㅤ</div>
             </div>
-            <div>
+            <div class="box-9">
                 <div>9</div>
                 <div>ㅤ</div>
                 <div>ㅤ</div>
@@ -76,7 +84,7 @@
                 <div>8</div>
                 <div>5</div>
             </div>
-            <div>
+            <div class="box-9">
                 <div>ㅤ</div>
                 <div>8</div>
                 <div>ㅤ</div>
@@ -87,7 +95,7 @@
                 <div>ㅤ</div>
                 <div>4</div>
             </div>
-            <div>
+            <div class="box-9">
                 <div>ㅤ</div>
                 <div>ㅤ</div>
                 <div>ㅤ</div>
@@ -98,7 +106,7 @@
                 <div>ㅤ</div>
                 <div>6</div>
             </div>
-            <div>
+            <div class="box-9">
                 <div>2</div>
                 <div>ㅤ</div>
                 <div>ㅤ</div>
@@ -109,7 +117,7 @@
                 <div>ㅤ</div>
                 <div>ㅤ</div>
             </div>
-            <div>
+            <div class="box-9">
                 <div>ㅤ</div>
                 <div>ㅤ</div>
                 <div>ㅤ</div>
@@ -120,7 +128,7 @@
                 <div>ㅤ</div>
                 <div>ㅤ</div>
             </div>
-            <div>
+            <div class="box-9">
                 <div>ㅤ</div>
                 <div>ㅤ</div>
                 <div>ㅤ</div>
@@ -132,34 +140,26 @@
                 <div>8</div>
             </div>
         </div>
-        <div>
-            <div>
+        <div class="game-buttons">
+            <div class="game-menu">
                 <div>
-                    <button>
-                        ☒
-                    </button>
+                    <button class="fa fa-undo"></button>
                     Undo
                 </div>
                 <div>
-                    <button>
-                        ☒
-                    </button>
+                    <button class="fa fa-eraser"></button>
                     Erase
                 </div>
                 <div>
-                    <button>
-                        ☒
-                    </button>
+                    <button class="fa fa-pencil"></button>
                     Notes
                 </div>
                 <div>
-                    <button>
-                        ☒
-                    </button>
+                    <button class="fa fa-lightbulb-o "></button>
                     Hint
                 </div>
             </div>
-            <div>
+            <div class="num-buttons">
                 <button>1</button>
                 <button>2</button>
                 <button>3</button>
@@ -171,22 +171,26 @@
                 <button>9</button>
             </div>
         </div>
-        <div>
-            <img src="./logo.png" alt="logo">
-            <div>
+        <div class="app-ad">
+            <div class="left-section">
+                <img src="./img/logo.png" alt="logo">
+                <div class="ad-text">
                 <h2>Sudoku.com - Number Games</h2>
                 <p>Easybrain</p>
                 <p>★★★★☆</p>
+                </div>
             </div>
-            <a href="#"><img src="./gplay.png" alt="Googleplay"></a>
-            <a href="#"><img src="./astore.png" alt="Appstore"></a>
+            <div class="apps">
+                <a href="#"><img src="./img/gplay.png" alt="Googleplay"></a>
+                <a href="#"><img src="./img/astore.png" alt="Appstore"></a>
+            </div>
         </div>
     </main>
-    <footer>
-        <div>
+    <footer class="container">
+        <div class="top-footer">
             <div>
                 <h1>Easybrain</h1>
-                <p>2018-2022 Easybrain. All rights reserved.</p>
+                <p>&copy;2018-2022 Easybrain. All rights reserved.</p>
             </div>
             <nav>
                 <a href="#">Daily chalenge</a>
@@ -195,7 +199,7 @@
                 <a href="#">Tips</a>
                 <a href="#">Get <span>in</span> touch</a>
             </nav>
-            <div>
+            <div class="lang-bar">
                 <select name="lang" id="lang">
                     <option value="EN">English</option>
                     <option value="JP">日本語</option>
@@ -207,7 +211,7 @@
             </div>
         </div>
         <hr>
-        <div>
+        <div class="bot-footer">
             <nav>
                 <a href="#">Terms</a>
                 <a href="#">Cookie pocily</a>
