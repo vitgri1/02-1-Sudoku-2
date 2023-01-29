@@ -51,6 +51,7 @@ header.container {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .menu > div{
@@ -87,8 +88,8 @@ header.container {
 
 .number-box{
     float: left;
-    width: 548px;
-    height: 548px;
+    width: 458px;
+    height: 458px;
     background-color: yellowgreen;
     font-size: 30px;
     text-align: center;
@@ -97,10 +98,11 @@ header.container {
     gap: 1px;
     justify-content: center;
     background-color: #000;
+    user-select: none;
 }
 .number-box > .box-9{
-    width: 182px;
-    height: 182px;
+    width: 152px;
+    height: 152px;
     display: flex;
     flex-wrap: wrap;
     gap: 1px;
@@ -110,85 +112,85 @@ header.container {
 }
 .number-box > .box-9 > div{
     background-color: #fff;
-    line-height: 58px;
-    width: 60px;
+    line-height: 48px;
+    width: 50px;
     border-width: 1px;
     border-style: solid;
     border-color: #000;
 }
-main > div:nth-child(3){
-    float: left;
-    width: calc(100% - 548px);
-}
-main > div:nth-child(3) > div{
-    float: left;
-    width: 100%;
-    background-color: lightblue;
-    margin-top: 10px;
+.game-buttons{
+    float: right;
+    width: calc(100% - 500px);
     color: #4A90E2;
 }
-main > div:nth-child(3) > div > button{
-    float:left;
+
+.game-menu{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: aquamarine;
 }
-main > div:nth-child(3) > div:first-of-type > div > button {
+
+.game-buttons > .game-menu > div > button {
     border-style: none;
     border-radius: 100%;
     color:#4A90E2;
-    padding: 0.5em;
-    font-size: 250%;
-    line-height: 1em;
+    font-size: 200%;
+    line-height: 2.5em;
+    width: 2.5em;
+}
+.num-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 8px;
+    user-select: none;
+}
+.num-buttons > button {
     width: 2em;
-}
-main > div:nth-child(3) > div:first-of-type > div{
-    float: left;
-    text-align: center;
-    width: 25%;
-}
-main > div:nth-child(3) > div:last-of-type > button {
-    width: 32%;
-    margin-left: 1%;
-    margin-bottom: 1%;
+    line-height: 1.8em;
     border-style: none;
     border-radius: 10%;
     color: #4A90E2;
     font-size: 400%;
-    line-height: 1em;
-    padding: 0.5em;
-
 }
-main > div:last-child{
+.app-ad{
     display: inline-block;
     width: 100%;
     background-color: red;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-main > div:last-child > img:first-child{
-    float: left;
-    width: 10%;
-    margin: 2%;
+.left-section {
+    width: 55%;
+    padding: 2%;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
 }
-main > div:last-child > div:first-of-type{
-    float: left;
-    width: 40%;
-    margin-left: 2%;
+.left-section img {
+    width: 25%;
 }
-h2{
-    margin: 0;
-    margin-top: 7%;
+.ad-text {
+    text-align: left;
+    width: 70%;
+    height: 100%;
+    margin-left: 5%;
 }
-p{
-    margin: 0;
+.apps {
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
-main > div:last-child > div > p:first-of-type{
+.app-ad  p:first-of-type{
     color: gray;
 }
-main > div:last-child > div > p:last-of-type{
+.app-ad  p:last-of-type{
     color: orange;
 }
-main > div:last-child > a{
-    float: left;
-    margin-left: 2%;
-    margin-top: 40px;
+.app-ad a{
     background-color: black;
     border-radius: 5px;
     padding: 5px 10px;
