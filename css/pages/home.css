@@ -16,7 +16,6 @@ header.container {
 .drop-down{
     float: left;
     color: #344861;
-    background-color: red;
     font-size: 24px;
     width: 2em;
     line-height: 1em;
@@ -52,6 +51,7 @@ header.container {
     align-items: center;
     width: 100%;
     margin-bottom: 10px;
+    color: #fff;
 }
 
 .menu > div{
@@ -61,7 +61,6 @@ header.container {
 
 .selector{
     width: 30%;
-    background-color: aqua;
 }
 
 #Difficulty{
@@ -74,7 +73,6 @@ header.container {
     align-items: center;
     gap: 0.5em;
     width: 30%;
-    background-color: green;
 }
 
 .time > button{
@@ -90,7 +88,6 @@ header.container {
     float: left;
     width: 458px;
     height: 458px;
-    background-color: yellowgreen;
     font-size: 30px;
     text-align: center;
     display: flex;
@@ -100,6 +97,7 @@ header.container {
     background-color: #000;
     user-select: none;
 }
+
 .number-box > .box-9{
     width: 152px;
     height: 152px;
@@ -110,6 +108,7 @@ header.container {
     align-items: center;
     background-color: #fff;
 }
+
 .number-box > .box-9 > div{
     background-color: #fff;
     line-height: 48px;
@@ -118,6 +117,7 @@ header.container {
     border-style: solid;
     border-color: #000;
 }
+
 .game-buttons{
     float: right;
     width: calc(100% - 500px);
@@ -128,7 +128,6 @@ header.container {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: aquamarine;
 }
 
 .game-buttons > .game-menu > div > button {
@@ -157,7 +156,7 @@ header.container {
 .app-ad{
     display: inline-block;
     width: 100%;
-    background-color: red;
+    background-color: #fff;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
