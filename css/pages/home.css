@@ -144,6 +144,7 @@ header.container {
     flex-wrap: wrap;
     justify-content: end;
     gap: 8px;
+    user-select: none;
 }
 .num-buttons > button {
     width: 2em;
@@ -153,39 +154,43 @@ header.container {
     color: #4A90E2;
     font-size: 400%;
 }
-main > div:last-child{
+.app-ad{
     display: inline-block;
     width: 100%;
     background-color: red;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-main > div:last-child > img:first-child{
-    float: left;
-    width: 10%;
-    margin: 2%;
+.left-section {
+    width: 55%;
+    padding: 2%;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
 }
-main > div:last-child > div:first-of-type{
-    float: left;
-    width: 40%;
-    margin-left: 2%;
+.left-section img {
+    width: 25%;
 }
-h2{
-    margin: 0;
-    margin-top: 7%;
+.ad-text {
+    text-align: left;
+    width: 70%;
+    height: 100%;
+    margin-left: 5%;
 }
-p{
-    margin: 0;
+.apps {
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
-main > div:last-child > div > p:first-of-type{
+.app-ad  p:first-of-type{
     color: gray;
 }
-main > div:last-child > div > p:last-of-type{
+.app-ad  p:last-of-type{
     color: orange;
 }
-main > div:last-child > a{
-    float: left;
-    margin-left: 2%;
-    margin-top: 40px;
+.app-ad a{
     background-color: black;
     border-radius: 5px;
     padding: 5px 10px;
