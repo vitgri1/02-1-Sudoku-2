@@ -1,6 +1,6 @@
 .container {
     display: inline-block;
-    width: 900px;
-    margin-left: calc(50% - 450px);
+    width: 1300px;
+    margin-left: calc(50% - 650px);
     text-align: center;
 }

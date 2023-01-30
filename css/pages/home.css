@@ -125,7 +125,7 @@ main.container {
 
 .game-buttons{
     float: right;
-    width: calc(100% - 500px);
+    width: calc(70% - 500px);
     color: #4A90E2;
 }
 
@@ -267,4 +267,36 @@ hr {
 }
 footer >div>p{
     color:gray;
+}
+
+@media (max-width: 1400px) {
+    .container {
+        width: 900px;
+        margin-left: calc(50% - 450px);
+    }
+    .game-buttons {
+        width: calc(100% - 500px);
+    }
+}
+
+@media (max-width: 930px) {
+    .container {
+        width: 750px;
+        margin-left: calc(50% - 375px);
+    }
+    .game-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .game-buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .num-buttons {
+        justify-content: center;
+    }
 }
